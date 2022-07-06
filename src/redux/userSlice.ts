@@ -12,8 +12,8 @@ export const slice = createSlice({
     isLogged: false
   },
   reducers: {
-    changeUser(state, {payload}){
-      return { ...state, isLogged: true, user: payload };
+    changeUser(state2, {payload}){
+      return { ...state2, isLogged: true, user: payload };
     },
     logout(state){
       return { ...state, isLogged: false, user: ''}
